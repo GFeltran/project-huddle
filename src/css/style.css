@@ -1,0 +1,134 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+}
+
+.container-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+
+    background: var(--color-primary-dark) url(../images/bg-desktop.svg) no-repeat center;
+    background-size: cover;
+}
+
+/* Header */
+
+.header {
+    grid-area: header;
+    padding: 53px 70px;
+}
+
+.header .logo {
+    height: 53px;
+}
+
+/* Main */
+
+.main {
+    grid-area: main;
+
+    display: grid;
+    grid-template-areas: "mockup info";
+
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 70px;
+}
+
+.main .mockup {
+    grid-area: mockup;
+}
+
+.main .info {
+    grid-area: info;
+
+    padding-left: 55px;
+}
+
+.main .info .tittle, 
+.main .info .desc {
+    color: #ffffff;
+}
+
+.main .info .tittle {
+    font-family: var(--font-head);
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: capitalize;
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.main .info .desc {
+    font-family: var(--font-body);
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 28px;
+
+    margin-bottom: 40px;
+}
+
+.main .info .btn-register {
+    font-family: var(--font-head);
+    font-size: 1.8rem;
+    font-weight: 400;
+
+    padding: 15px 65px;
+    border-radius: 50px;
+    box-shadow: 7px 9px 23px #000000;
+
+    color: var(--color-primary-dark);
+    background-color: #ffffff;
+
+    transition: 0.3s;
+}
+
+.main .info .btn-register:hover {
+    color: #ffffff;
+    background-color: var(--color-primary-soft);
+}
+
+/* Footer */
+
+.footer {
+    grid-area: footer;
+
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 30px 55px;
+}
+
+.footer .sociais ul{
+    display: flex;
+    gap: 15px;
+}
+
+.footer .sociais ul a {
+    font-size: 1.8rem;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    width: 40px;
+
+    border: solid 1.8px #ffffff;
+    border-radius: 50%;
+
+    transition: 0.3s;
+}
+
+.footer .sociais ul a:hover {
+    color: var(--color-primary-soft);
+    border-color: var(--color-primary-soft);
+}
