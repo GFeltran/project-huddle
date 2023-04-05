@@ -136,5 +136,5 @@ Mobile Version:
 ## Author
 
 - Frontend Mentor - [@GFeltran](https://www.frontendmentor.io/profile/GFeltran)
-- ~~Portfolio - [Feltran]()~~
+- Linkedin - [Gabriel Feltran](https://www.linkedin.com/in/gabriel-feltran-137421271/)
 - ~~Twitter - [@Feltran]()~~
